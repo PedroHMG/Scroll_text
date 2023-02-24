@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+.side {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position: absolute;
+}
+
+.side .title {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 8vw;
+    margin: 0vw 15vw;
+    width: 70vw;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#left-side {
+    background-color: purple;
+    z-index: 2;
+    width: 100%;
+    -webkit-transition:300ms;
+	-moz-transition:300ms;
+	-o-transition:300ms;
+	-ms-transition:300ms;
+	transition:300ms;
+}
+
+
+#left-side .title{
+    color: white;
+}
+
+#left-side .fancy{
+    color: yellow
+}
+
+
+#right-side .title{
+    color: black;
+}
+
+#right-side .fancy{
+    color: white
+}
+
+#right-side {
+    background-color: rgb(212, 212, 15);
+}
+
+.side .fancy {
+    font-family: "Lobster", cursive;
+    font-size: 1.3em;
+    line-height: 0.8em;
+}
